@@ -46,3 +46,12 @@ if 18 <= age < 65:
     print("true")
 else:
     print("false")
+
+
+age = 22
+if age >= 18:
+    print("ELIGIBILE")
+else:
+    print("not Eligibile")
+
+"ELIGIBLE" if age >= 18 else "not Eligibile"
