@@ -19,10 +19,10 @@ print("python programming")
 
 # escape sequnces
 # \"
-course = "python \" programming"
+course = 'python " programming'
 print(course)
 # \'
-course = 'python \' programming'
+course = "python ' programming"
 print(course)
 # \\   back slash
 course = "python \\ programming"
@@ -56,3 +56,10 @@ print(discount_code.lstrip())
 course = "python programming"
 print("py" in course)
 print("df" not in course)
+
+
+def greet():
+    print("hi")
+
+
+greet()
