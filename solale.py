@@ -25,5 +25,56 @@ for x in range(1, 10):
 
 
 def save_user(**user):
-    print(user)
-    save_user(id=1, name="ali", age=32)
+    print(user["name"])
+
+
+save_user(id=1, name="ali", age=32)
+
+
+def greet(name):
+    print(name)
+
+
+greet("peyman")
+
+
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+
+
+print("start")
+print(multiply(2, 3, 4))
+
+
+letters = ["a", "b", "c"]
+
+matrix = [[0, 1], [2, 3]]
+print(letters[0])
+
+zeros = [0] * 5
+combined = letters + zeros
+print(combined)
+
+
+numbers = list(range(21))
+print(numbers)
+
+for number in range(20):
+    print(0, end="\t")
+
+    for x in range(1, 10):
+        for y in range(1, 10):
+            print(x * y, end="\t\t")
+        print("\n")
+
+
+letters = ["a", "b", "c", "d"]
+print(letters[-2])
+print(letters[-4])
+print(letters[0])
+
+numbers = list(range(20))
+print(numbers[::2])
