@@ -8,11 +8,3 @@ command = ""
 while command != "exit":
     command = input(">>>")
     print(command)
-
-
-# creat my function
-def greet(first_name):
-    print(f"hi {first_name}")
-
-
-greet("peyman")
